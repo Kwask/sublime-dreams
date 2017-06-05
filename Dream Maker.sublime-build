@@ -1,22 +1,32 @@
 {
 	"cmd": ["$file"],
 	"file_regex": "^(..[^:]*):([0-9]+):()((warning|error):.+)$",
-	"selector": "source.dm",
+	"selector": "source.dm, source.dme",
 	"target": "dmc",
+	"syntax": "Packages/Dream Maker/Dream Maker.tmLanguage",
 
 	"variants": [
 		{
 			"name": "Run",
-			"dream_seeker": true,
-			"kill_old": true
+			"task": "seeker",
+			"kill_first": true
 		},
 		{
 			"name": "Run in New DreamSeeker",
-			"dream_seeker": true
+			"task": "seeker"
 		},
 		{
 			"name": "Run in DreamDaemon",
-			"dream_daemon": true
+			"task": "daemon"
+		},
+		{
+			"name": "Add to DME",
+			"task": "add"
+		},
+		{
+			"name": "Remove from DME",
+			"task": "remove"
 		}
+
 	]
 }
