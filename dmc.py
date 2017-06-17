@@ -30,7 +30,7 @@ class DmcCommand(ExecCommand, ProcessListener):
             syntax="Packages/Dream Maker/Dream Maker.tmLanguage",
             # Catches "path" and "shell"
             task = "",
-            kill_old = False,
+            kill_first = False,
             **kwargs
             ):
 
