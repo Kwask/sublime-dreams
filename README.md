@@ -1,7 +1,15 @@
 sublime-dreams
 ==============
 
-A Sublime Text 2 Theme/Build System for Dream Maker (http://byond.com)
+A Sublime Text 3 Theme/Build System for Dream Maker (http://byond.com)
+Adapted from the Sublime Text 2 sublime-dreams package (https://github.com/seiyria/sublime-dreams)
+
+Installation
+============
+1. Dowload the zip. Extract it. Rename the folder 'Dream Maker'
+2. From Sublime Text 3 select Preferences->Browse Packages
+3. Copy the 'Dream Maker' folder there
+4. Restart Sublime Text 3
 
 Highlighting
 ============

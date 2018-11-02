@@ -2,16 +2,16 @@
 	"schema_version": "1.2",
 	"packages": [
 		{
-			"name": "Dream Maker",
-			"description": "Syntax highlighting and build for BYOND Dream Maker",
-			"author": "seiyria",
-			"homepage": "https://github.com/seiyria/sublime-dreams",
-			"last_modified": "2013-09-16 06:24:31",
+			"name": "Sublime Dreams",
+			"description": "Sublime Text 3 syntax highlighting and build system for BYOND Dream Maker",
+			"author": "cerid",
+			"homepage": "https://github.com/cerid/sublime-dreams",
+			"last_modified": "2017-06-16 12:00:00",
 			"platforms": {
 				"*": [
 					{
-						"version": "1.5.4",
-						"url": "https://codeload.github.com/seiyria/sublime-dreams/zip/master"
+						"version": "1.0.0",
+						"url": "https://github.com/cerid/sublime-dreams/zip/master"
 					}
 				]
 			}
